@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bike Specifications & Diagnostics - BikeAI</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Premium Navigation Header -->
+  <header>
+    <div class="nav-container">
+      <a href="index.html" class="logo" id="navLogo">🏍️ BikeAI</a>
+      <ul class="nav-links">
+        <li><a href="index.html" id="navLinkExplorer">Explorer</a></li>
+        <li><a href="chat.html" id="navLinkChat">AI Assistant</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <!-- Detailed Content -->
+  <main>
+    <!-- Loading Screen Placeholder -->
+    <div id="detailLoading" style="text-align: center; padding: 5rem 0; color: var(--text-secondary);">
+      <div class="typing-indicator" style="justify-content: center; margin-bottom: 1rem;">
+        <div class="typing-dot"></div>
+        <div class="typing-dot"></div>
+        <div class="typing-dot"></div>
+      </div>
+      Fetching detailed specifications from database...
+    </div>
+
+    <!-- Error State -->
+    <div id="detailError" style="display: none; text-align: center; padding: 5rem 0;">
+      <h2 style="color: var(--danger); margin-bottom: 1rem;">⚠️ Bike Profile Not Found</h2>
+      <p style="color: var(--text-secondary); margin-bottom: 2rem;">The requested motorcycle could not be located in our catalog.</p>
+      <a href="index.html" class="btn btn-secondary" style="max-width: 200px; margin: 0 auto;">Return to Catalog</a>
+    </div>
+
+    <!-- Loaded Profile Data (Initially hidden) -->
+    <div id="detailProfile" style="display: none;">
+      <!-- Hero Detail Banner -->
+      <div class="detail-header">
+        <div class="detail-badge-group">
+          <span class="type-badge" id="bikeDetailType">COMMUTER</span>
+          <span class="type-badge" style="background-color: rgba(255,255,255,0.05); color: var(--text-secondary); border-color: var(--border);" id="bikeDetailBrand">HONDA</span>
+        </div>
+        <h1 id="bikeDetailName">Honda Activa 6G</h1>
+        <div class="price-tag" id="bikeDetailPrice">₹78,000</div>
+      </div>
+
+      <!-- Quick Specifications Box Grid -->
+      <div class="specs-grid">
+        <div class="spec-box">
+          <span class="spec-icon">🔧</span>
+          <span class="spec-box-label">Engine Size</span>
+          <span class="spec-box-value" id="specEngine">109.5 cc</span>
+        </div>
+        <div class="spec-box">
+          <span class="spec-icon">🐎</span>
+          <span class="spec-box-label">Max Power</span>
+          <span class="spec-box-value" id="specPower">7.73 BHP</span>
+        </div>
+        <div class="spec-box">
+          <span class="spec-icon">🌀</span>
+          <span class="spec-box-label">Max Torque</span>
+          <span class="spec-box-value" id="specTorque">8.90 Nm</span>
+        </div>
+        <div class="spec-box">
+          <span class="spec-icon">⚖️</span>
+          <span class="spec-box-label">Curb Weight</span>
+          <span class="spec-box-value" id="specWeight">106 kg</span>
+        </div>
+        <div class="spec-box">
+          <span class="spec-icon">⛽</span>
+          <span class="spec-box-label">Fuel Mileage</span>
+          <span class="spec-box-value" id="specMileage">50 kmpl</span>
+        </div>
+      </div>
+
+      <!-- Feature and Sentiment Sections -->
+      <div class="detail-sections-container">
+        <!-- Left Column: Specs, Features, Pros and Cons -->
+        <div class="left-section">
+          <!-- Features -->
+          <div class="detail-card">
+            <h2>Key Feature Suite</h2>
+            <div class="features-list" id="featuresContainer">
+              <!-- Dynamically populated -->
+            </div>
+          </div>
+
+          <!-- Pros and Cons Side-by-Side -->
+          <div class="detail-card">
+            <h2>Owner Report Sentiment</h2>
+            <div class="pros-cons-grid">
+              <div class="pros-column">
+                <h3>Pros</h3>
+                <ul class="pro-con-list" id="prosContainer">
+                  <!-- Dynamically populated -->
+                </ul>
+              </div>
+              <div class="cons-column">
+                <h3>Cons</h3>
+                <ul class="pro-con-list" id="consContainer">
+                  <!-- Dynamically populated -->
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Right Column: Accordion of 10 Common Issues -->
+        <div class="right-section">
+          <div class="detail-card">
+            <h2>Top 10 Common Issues</h2>
+            <p style="color: var(--text-secondary); font-size: 0.9rem; margin-bottom: 1.5rem;">Based on local maintenance reports. Click an issue to view the step-by-step fix.</p>
+            <div class="accordion" id="issuesAccordion">
+              <!-- Dynamically populated by bikes.js -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <!-- Sticky Contact AI Floating Banner -->
+  <div class="sticky-ai-banner" id="stickyAiBanner" style="display: none;">
+    <div class="sticky-ai-text">
+      💬 Have a specific question about the <span id="stickyBikeName" style="font-weight: 700;">Activa 6G</span>?
+    </div>
+    <a href="chat.html" class="sticky-ai-btn" id="stickyAiBtn">Ask AI Assistant</a>
+  </div>
+
+  <!-- Sticky Footer -->
+  <footer>
+    <p>&copy; 2026 BikeAI. Made for Indian riders. Powered by an offline, rule-based AI diagnostics engine.</p>
+  </footer>
+
+  <script src="js/bikes.js"></script>
+</body>
+</html>

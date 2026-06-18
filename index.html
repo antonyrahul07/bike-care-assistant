@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>THROTTLEAI - AI-Powered Indian Bike Explorer</title>
+  <meta name="description" content="Explore popular Indian motorcycles, search specs, filter categories, and get intelligent AI recommendations and troubleshooting support.">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Premium Navigation Header -->
+  <header>
+    <div class="nav-container">
+      <a href="index.html" class="logo" id="navLogo">🏍️ THROTTLEAI</a>
+      <ul class="nav-links">
+        <li><a href="index.html" class="active" id="navLinkExplorer">Explorer</a></li>
+        <li><a href="chat.html" id="navLinkChat">BIKEGURU</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <!-- Main Grid & Controls -->
+  <main>
+    <div class="hero-text">
+      <h1>Intelligent Indian Bike Assistant</h1>
+      <p>Discover specifications, troubleshoot common issues, and chat with our rule-based AI engine.</p>
+    </div>
+
+    <!-- Live Controls: Search & Category Filters -->
+    <div class="controls-container">
+      <div class="search-box">
+        <input type="text" id="bikeSearchInput" placeholder="Search by name, brand (e.g. Royal Enfield, KTM, Honda)..." autocomplete="off">
+      </div>
+      
+      <div class="filter-group">
+        <span style="color: var(--text-secondary); font-size: 0.9rem; font-weight: 600; margin-right: 0.5rem;">Categories:</span>
+        <button class="filter-btn active" data-type="all" id="btnFilterAll">All</button>
+        <button class="filter-btn" data-type="commuter" id="btnFilterCommuter">Commuter</button>
+        <button class="filter-btn" data-type="sports" id="btnFilterSports">Sports</button>
+        <button class="filter-btn" data-type="cruiser" id="btnFilterCruiser">Cruiser</button>
+      </div>
+    </div>
+
+    <!-- Live Bike Cards Container -->
+    <div class="bike-grid" id="bikeCardsGrid">
+      <!-- Cards are dynamically injected here by app.js -->
+      <div style="grid-column: 1 / -1; text-align: center; padding: 3rem; color: var(--text-secondary);" id="loadingPlaceholder">
+        <div class="typing-indicator" style="justify-content: center; margin-bottom: 1rem;">
+          <div class="typing-dot"></div>
+          <div class="typing-dot"></div>
+          <div class="typing-dot"></div>
+        </div>
+        Loading Indian bike catalog...
+      </div>
+    </div>
+  </main>
+
+  <!-- Sticky Footer -->
+  <footer>
+    <p>&copy; 2026 BikeAI. Made for Indian riders. Powered by an offline, rule-based AI diagnostics engine.</p>
+  </footer>
+
+  <script src="js/app.js"></script>
+</body>
+</html>

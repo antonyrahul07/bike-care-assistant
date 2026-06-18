@@ -1,0 +1,692 @@
+[
+  {
+    "id": "honda-activa-6g",
+    "name": "Honda Activa 6G",
+    "brand": "Honda",
+    "type": "commuter",
+    "image": "https://source.unsplash.com/400x250/?scooter",
+    "price_inr": 78000,
+    "engine_cc": 109.51,
+    "mileage_kmpl": 50,
+    "power_bhp": 7.73,
+    "torque_nm": 8.90,
+    "weight_kg": 106,
+    "features": ["PGM-Fi Engine", "ESP Technology", "Silent Start with ACG", "Telescopic Front Suspension", "External Fuel Fill", "Engine Start/Stop Switch"],
+    "pros": ["Superb reliability", "Smooth engine refinement", "High resale value", "Excellent ride comfort with telescopic forks"],
+    "cons": ["Plastic panels feel flimsy", "Lacks digital console", "No front disc brake option"],
+    "best_for": "Daily city commuting, family use, and stress-free utility riding",
+    "common_issues": [
+      {
+        "issue": "Cold Start Issues",
+        "cause": "Rich/lean mixture miscalculation by the PGM-FI ECU when ambient temperatures are low.",
+        "fix": "1. Switch on the ignition key and wait for the fuel pump priming sound to stop. 2. Do not twist the throttle. 3. Hold the brake and press the electric starter. 4. Let the engine idle for 60 seconds before riding."
+      },
+      {
+        "issue": "Front Suspension Squeaking",
+        "cause": "Lack of grease in the telescopic forks or dirt ingress into the dust seals.",
+        "fix": "1. Park on the center stand. 2. Clean the front fork slider tubes with a microfiber cloth. 3. Apply a small amount of silicone grease under the dust seal. 4. If noise persists, visit a service center to check fork oil levels and bushes."
+      },
+      {
+        "issue": "Engine Vibrations at High Speed",
+        "cause": "Loose engine mounting bolts or worn-out CVT clutch rollers/shoes.",
+        "fix": "1. Tighten the engine mounting bolts using a torque wrench. 2. Inspect the CVT variator rollers for flat spots. 3. Clean the CVT clutch housing with compressed air to remove belt dust. 4. Replace worn clutch shoes if glazed."
+      },
+      {
+        "issue": "Low Fuel Efficiency",
+        "cause": "Dirty air filter element or low tire pressure restricting smooth rolling.",
+        "fix": "1. Check and inflate tires to recommended pressures: Front 22 PSI, Rear 36 PSI (with pillion). 2. Remove the air filter cover. 3. Inspect the paper air filter; replace if clogged with dust. 4. Avoid aggressive start-stop throttle inputs."
+      },
+      {
+        "issue": "Handlebar Heavy Feeling",
+        "cause": "Over-tightened steering cone set or dry steering head bearings.",
+        "fix": "1. Place the scooter on the center stand and lift the front wheel. 2. Move the handlebar left to right to check for tightness. 3. Loosen the steering stem lock nut slightly. 4. Apply multi-purpose grease to the steering ball bearings."
+      },
+      {
+        "issue": "Fuel Lid Stuck",
+        "cause": "Corrosion in the multi-function key lock mechanism or cable tension loss.",
+        "fix": "1. Spray WD-40 rust penetrant directly into the key slot and the fuel lid release latch. 2. Press the seat/fuel release switch repeatedly. 3. If it remains stuck, remove the side panel to adjust the release cable tension."
+      },
+      {
+        "issue": "Brake Cable Wear",
+        "cause": "Friction build-up inside the Combi-Brake System (CBS) equalizer and cable sleeves.",
+        "fix": "1. Locate the CBS equalizer mechanism under the front cover. 2. Pour a few drops of light machine oil into the brake cables. 3. Squeeze the brake levers to distribute the oil. 4. Replace frayed or hard cables immediately."
+      },
+      {
+        "issue": "Headlight Dimming",
+        "cause": "Poor grounding or battery terminal corrosion affecting the DC electrical circuit.",
+        "fix": "1. Open the battery compartment in the front apron. 2. Clean battery terminals with warm water and a wire brush. 3. Apply petroleum jelly on terminals to prevent future oxidation. 4. Verify alternator charging voltage is ~14V."
+      },
+      {
+        "issue": "Battery Draining",
+        "cause": "Faulty charging regulator/rectifier (RR unit) or parasitic leakage from aftermarket accessories.",
+        "fix": "1. Disconnect any aftermarket GPS trackers or LED lights. 2. Measure battery voltage when off (should be >12.4V). 3. Use a multimeter to check RR unit output. 4. Replace battery if it fails to hold a charge after a full external recharge."
+      },
+      {
+        "issue": "Key Lock Slot Stuck",
+        "cause": "Accumulation of dust and moisture inside the shutter key mechanism.",
+        "fix": "1. Do not force the key. 2. Spray contact cleaner or rubbing alcohol into the keyway. 3. Gently tap the key handle to engage. 4. Use the hexagonal magnet key on the fob to reset the lock shutter."
+      }
+    ]
+  },
+  {
+    "id": "royal-enfield-classic-350",
+    "name": "Royal Enfield Classic 350",
+    "brand": "Royal Enfield",
+    "type": "cruiser",
+    "image": "https://source.unsplash.com/400x250/?royal-enfield",
+    "price_inr": 193000,
+    "engine_cc": 349.0,
+    "mileage_kmpl": 35,
+    "power_bhp": 20.2,
+    "torque_nm": 27.0,
+    "weight_kg": 195,
+    "features": ["J-Series Engine", "Dual-Channel ABS", "Tripper Navigation (Optional)", "Comfortable Cruiser Seating", "Retro Analog-Digital Cluster"],
+    "pros": ["Excellent low-end torque", "Thump sound and vintage styling", "Extremely stable at highway speeds", "Much reduced vibrations compared to UCE engine"],
+    "cons": ["Heavy weight makes city parking difficult", "Heavy clutch lever action", "Stock headlamp is weak for highway touring"],
+    "best_for": "Highway cruising, long tours, and relaxed weekend riding",
+    "common_issues": [
+      {
+        "issue": "Heavy Vibrations at High Speed",
+        "cause": "Loose engine mounting bolts or imbalanced wheel rims.",
+        "fix": "1. Check the engine hanger plates. 2. Tighten all chassis and engine mounts using a torque wrench. 3. Put the bike on the main stand and spin wheels to check for rim bends. 4. Align spokes or add wheel weights for balancing."
+      },
+      {
+        "issue": "Battery Drain Issue",
+        "cause": "Faulty side stand sensor or continuous power draw from the USB charger socket.",
+        "fix": "1. Check if the side stand indicator stays active on the dashboard. 2. Clean the side stand switch contacts with electrical contact cleaner. 3. Unplug any device from the USB port when the ignition is turned off."
+      },
+      {
+        "issue": "Hard Clutch Lever",
+        "cause": "Friction and lack of lubrication in the clutch cable sleeve.",
+        "fix": "1. Unhook the clutch cable from the handlebar lever. 2. Pour engine oil down the cable using a funnel. 3. Pump the cable back and forth until oil exits the lower end. 4. Reattach and adjust free play to 2-3mm."
+      },
+      {
+        "issue": "Engine Overheating",
+        "cause": "Low engine oil levels or dirty oil cooler fins restricting air flow.",
+        "fix": "1. Check the engine oil inspection window on a level surface. 2. Top up with semi-synthetic 15W-50 oil if low. 3. Clean dirt, mud, and road debris from the engine block cooling fins using a soft brush."
+      },
+      {
+        "issue": "Rear Brake Squealing",
+        "cause": "Glazed brake pads or accumulation of dust on the rear disc rotor.",
+        "fix": "1. Remove rear brake pads. 2. Rub the brake pad surface gently with 120-grit sandpaper to remove the glaze. 3. Clean the brake caliper pistons and disc rotor with a dedicated brake cleaner spray. 4. Reassemble the pads."
+      },
+      {
+        "issue": "Rusting on Exhaust Pipe",
+        "cause": "Poor chrome protection layer combined with moisture and salt exposure.",
+        "fix": "1. Clean the exhaust pipe with soap and water. 2. Apply a chrome polish or metal restoration cream. 3. Use 0000 steel wool gently on severe rust spots. 4. Dry the bike thoroughly after washing to prevent water pooling."
+      },
+      {
+        "issue": "Headlamp Bulb Failure",
+        "cause": "High voltage surges due to a faulty voltage regulator or moisture in the casing.",
+        "fix": "1. Check the charging voltage; if it goes above 14.8V, replace the RR unit. 2. Open the headlamp casing and inspect the rubber grommet for seals. 3. Replace the blown H4 halogen bulb with a matching 55/60W rating."
+      },
+      {
+        "issue": "Chain Slackness",
+        "cause": "Natural chain stretch combined with high torque load on the drive chain.",
+        "fix": "1. Loosen the main rear axle nut. 2. Turn the chain adjuster nuts on both sides equally to reduce slack to 25-30mm. 3. Verify alignment using the notches on the swingarm. 4. Tighten the axle nut and lube the chain."
+      },
+      {
+        "issue": "Hard Gear Shifts",
+        "cause": "Wrong engine oil viscosity, or incorrect clutch cable adjustment.",
+        "fix": "1. Adjust the clutch cable free-play. 2. Change the engine oil to the recommended Royal Enfield Liquid Gun 15W-50 oil. 3. Ensure the gear shifter linkage pivot is clean and lubed with grease."
+      },
+      {
+        "issue": "Speedometer Fogging",
+        "cause": "Moisture condensation inside the sealed instrument cluster glass during cold rains.",
+        "fix": "1. Park the motorcycle in direct sunlight to evaporate the moisture. 2. If fogging persists, remove the instrument cluster and apply a thin bead of clear silicone sealant around the glass edge. 3. Reinstall carefully."
+      }
+    ]
+  },
+  {
+    "id": "bajaj-pulsar-ns200",
+    "name": "Bajaj Pulsar NS200",
+    "brand": "Bajaj",
+    "type": "sports",
+    "image": "https://imgd.aeplcdn.com/664x374/n/cw/ec/44692/pulsar-ns200-right-front-three-quarter.jpeg",
+    "price_inr": 142000,
+    "engine_cc": 199.5,
+    "mileage_kmpl": 36,
+    "power_bhp": 24.5,
+    "torque_nm": 18.74,
+    "weight_kg": 159,
+    "features": ["Liquid Cooled Engine", "Triple Spark DTS-i", "Perimeter Frame", "Underbelly Exhaust", "Backlit Switches", "Dual-Channel ABS"],
+    "pros": ["High-revving, punchy engine", "Excellent handling around corners", "Very aggressive streetfighter looks", "Good value for money"],
+    "cons": ["Vibrations felt in high RPMs", "Lack of gear position indicator", "A bit tall for shorter riders"],
+    "best_for": "Street racing, daily sports commuting, and spirited weekend carving",
+    "common_issues": [
+      {
+        "issue": "Engine Coolant Leakage",
+        "cause": "Loose hose clamps or degraded water pump mechanical seal.",
+        "fix": "1. Inspect the radiator hose connections for white/green crust. 2. Tighten the hose clamps. 3. Check the weeping hole beneath the water pump; if coolant is leaking here, replace the mechanical oil-coolant seal."
+      },
+      {
+        "issue": "Hard Gear Shifts",
+        "cause": "Glazed clutch plates or improper chain tension pulling on the sprocket shaft.",
+        "fix": "1. Adjust clutch lever free-play to 10-15mm. 2. Clean, lube, and adjust drive chain slack to 20-25mm. 3. Use 20W-50 fully synthetic engine oil during service to improve wet-clutch engagement."
+      },
+      {
+        "issue": "Chain Noise",
+        "cause": "Dry chain links or worn rubber chain slider on top of the swingarm.",
+        "fix": "1. Wash the chain with chain cleaner or kerosene. 2. Dry with a cloth. 3. Apply chain lube generously. 4. Inspect the plastic chain slider on the swingarm; replace if worn down to the metal."
+      },
+      {
+        "issue": "Digital Instrument Console Resetting",
+        "cause": "Loose battery terminal connections or a short circuit in the ignition switch line.",
+        "fix": "1. Remove the seat to access the battery. 2. Ensure both battery terminals are tight. 3. Clean the ignition switch contacts by spraying WD-40 into the key slot. 4. Check the 10A instrument cluster fuse."
+      },
+      {
+        "issue": "Engine Misfiring at High RPM",
+        "cause": "Fouled spark plugs or water entry in the spark plug caps.",
+        "fix": "1. Remove the three spark plug caps (NS200 has 3 plugs). 2. Clean any water or rust out of the cap wells. 3. Remove the plugs, check gap (0.7-0.8mm), and clean carbon build-up. 4. Replace plugs if worn."
+      },
+      {
+        "issue": "Front Fork Oil Leakage",
+        "cause": "Dirt scratch on the fork inner tube or worn fork oil seals.",
+        "fix": "1. Clean the fork tube. 2. Slide a thin plastic card (or seal doctor tool) under the fork seal to clear out trapped dirt. 3. If leak continues, replace the fork oil seal and refill with 10W fork oil (approx 310ml)."
+      },
+      {
+        "issue": "Rear Brake Lacks Bite",
+        "cause": "Air bubbles trapped in the hydraulic brake fluid line.",
+        "fix": "1. Clean the rear disc brake caliper. 2. Bleed the rear brake line to remove trapped air bubbles. 3. Top up the brake fluid reservoir with fresh DOT 4 fluid. 4. Ensure pads have sufficient thickness."
+      },
+      {
+        "issue": "Vibration in Headlight Fairing",
+        "cause": "Broken plastic mounting tabs or missing rubber grommets inside the cowl.",
+        "fix": "1. Remove the front headlight assembly. 2. Inspect all rubber mounting dampers. 3. Install rubber washers/spacers at all screw mounts. 4. Tighten all cowl assembly screws securely."
+      },
+      {
+        "issue": "Fuel Gauge Inaccuracy",
+        "cause": "Corrosion in the fuel tank sender unit float arm contacts.",
+        "fix": "1. Drain fuel and remove the fuel sender unit from the bottom of the tank. 2. Clean the variable resistor contacts on the sensor with contact cleaner. 3. Adjust the metal float arm bend if it catches on the tank side."
+      },
+      {
+        "issue": "Battery Discharging",
+        "cause": "Faulty stator coil not supplying adequate charging current.",
+        "fix": "1. Start engine and rev to 5000 RPM. 2. Check battery voltage; it must rise from 12.8V to 14.2V. 3. If voltage doesn't rise, test the stator coil AC output. 4. Replace the stator coil if shorted."
+      }
+    ]
+  },
+  {
+    "id": "tvs-apache-rtr-160-4v",
+    "name": "TVS Apache RTR 160 4V",
+    "brand": "TVS",
+    "type": "sports",
+    "image": "https://imgd.aeplcdn.com/664x374/n/cw/ec/44864/apache-rtr-160-4v-right-front-three-quarter.jpeg",
+    "price_inr": 124000,
+    "engine_cc": 159.7,
+    "mileage_kmpl": 45,
+    "power_bhp": 17.55,
+    "torque_nm": 14.73,
+    "weight_kg": 145,
+    "features": ["4-Valve O3C Engine", "SmartXonnect Bluetooth", "Ride Modes (Rain/Urban/Sport)", "Glide Through Technology (GTT)", "Aggressive LED Headlamp"],
+    "pros": ["Best-in-class power and refinement", "Smooth riding experience", "Advanced features like ride modes", "Comfortable city riding posture"],
+    "cons": ["Rear brake could have more bite", "Complex Bluetooth app pairing issues", "Gearbox feels slightly notched"],
+    "best_for": "Feature-rich city commuting and weekend canyon riding",
+    "common_issues": [
+      {
+        "issue": "Cold Engine Stalling",
+        "cause": "Idle speed set too low or rich air-fuel mixture calibration on initial start.",
+        "fix": "1. Avoid revving the engine immediately on starting. 2. Let the engine run for 45-60 seconds to warm up. 3. Update the ECU map at the authorized service center if stall persists. 4. Clean the throttle body."
+      },
+      {
+        "issue": "Chain Slap/Chain Noise",
+        "cause": "Dry chain links or loose tension hitting the metal guard.",
+        "fix": "1. Clean chain with a brush and diesel. 2. Lube using a sticky gear oil or chain lube spray. 3. Adjust chain tension to maintain 25mm slack. 4. Check that the plastic chain guide is correctly aligned."
+      },
+      {
+        "issue": "Hard Gear Shifting",
+        "cause": "Low level of engine oil or high clutch play.",
+        "fix": "1. Check engine oil level and top up with 10W-30 synthetic oil. 2. Adjust clutch cable play at the engine case side. 3. Lubricate the gear lever shift pivot bush with general-purpose grease."
+      },
+      {
+        "issue": "Front Brake Lever Spongeyness",
+        "cause": "Air ingress or moisture contamination in the front brake fluid reservoir.",
+        "fix": "1. Inspect the brake fluid window; check for dark fluid. 2. Bleed the front caliper using a bleeding kit. 3. Replace the brake fluid with fresh DOT 4 fluid. 4. Clean the disc rotor surface with isopropyl alcohol."
+      },
+      {
+        "issue": "Instrument Console Bluetooth Disconnection",
+        "cause": "Bluetooth module firmware lockup or conflicts with phone OS background restriction.",
+        "fix": "1. Turn off bike ignition. 2. Go to phone settings, unpair the SmartXonnect device. 3. Clear cache of the TVS Connect App. 4. Turn on ignition, search and reconnect through the app."
+      },
+      {
+        "issue": "Rear View Mirrors Loose",
+        "cause": "Vibrations loosening the lock nut on the mirror mounts.",
+        "fix": "1. Slide up the rubber boot over the mirror base. 2. Hold the mirror in the desired position. 3. Use a 14mm spanner to tighten the lower nut, and a 12mm spanner to lock the top nut in place."
+      },
+      {
+        "issue": "Engine Vibrations (Footpegs)",
+        "cause": "Lack of rubber dampers or slightly loose engine hanger brackets.",
+        "fix": "1. Ensure the rubber inserts on the footpegs are in place and not worn. 2. Tighten the engine assembly mounting bolts. 3. Avoid riding at high RPMs in lower gear ratios."
+      },
+      {
+        "issue": "Rusting on Disc Brake Rotor",
+        "cause": "High humidity, rain exposure, and metal oxidation.",
+        "fix": "1. Ride and brake moderately to rub off surface rust. 2. For heavy rust, clean with soft sandpaper. 3. Wipe down the disc with a dry microfiber cloth. 4. Never spray oil/WD-40 on the braking surface."
+      },
+      {
+        "issue": "Headlight Fogging",
+        "cause": "High humidity causing condensation behind the sealed LED headlight lens.",
+        "fix": "1. Remove the rubber dust boot from the back of the headlight unit. 2. Use a hairdryer on low heat to blow warm air in and clear condensation. 3. Check and clear the small breathing holes. 4. Re-fit dust boot tightly."
+      },
+      {
+        "issue": "Low End Torque Flat Spot",
+        "cause": "Slight lag in throttle response under Urban/Rain ride modes.",
+        "fix": "1. Switch the ride mode to 'Sport' using the mode selector button on the handlebar. 2. Clean the air filter to improve oxygen intake. 3. Ensure the throttle cable play is set to 2-3mm."
+      }
+    ]
+  },
+  {
+    "id": "hero-splendor-plus",
+    "name": "Hero Splendor Plus",
+    "brand": "Hero",
+    "type": "commuter",
+    "price_inr": 75000,
+    "image": "https://imgd.aeplcdn.com/664x374/n/cw/ec/44688/duke-390-right-front-three-quarter.jpeg",
+    "engine_cc": 97.2,
+    "mileage_kmpl": 65,
+    "power_bhp": 7.91,
+    "torque_nm": 8.05,
+    "weight_kg": 112,
+    "features": ["APDV Engine", "i3S Technology (Idle Start-Stop)", "Tubeless Tires", "Integrated Braking System", "Maintenance Free Battery"],
+    "pros": ["Legendary mileage and fuel economy", "Low cost of maintenance", "Durable engine that lasts decades", "Extremely light and easy to handle"],
+    "cons": ["Basic retro styling has barely changed", "Drum brakes lack modern bite", "Vibrates above 65 km/h"],
+    "best_for": "Ultra-economical daily commuting and rural riding",
+    "common_issues": [
+      {
+        "issue": "Hard Kick Start",
+        "cause": "Improper valve clearance (tappet clearance) or a worn-out spark plug.",
+        "fix": "1. Adjust the engine tappet clearances (Inlet: 0.05mm, Exhaust: 0.05mm). 2. Clean carbon build-up from the spark plug tip. 3. Kick with a steady, swift stroke without twisting the throttle."
+      },
+      {
+        "issue": "Engine Overheating in Heavy Traffic",
+        "cause": "Riding in low gears for extended periods or engine oil degradation.",
+        "fix": "1. Change engine oil every 2000-2500 km. 2. Use high-quality 10W-30 mineral oil. 3. Do not overload the engine. 4. Avoid idling in traffic for more than 2 minutes; use the i3S start-stop system."
+      },
+      {
+        "issue": "Low Mileage / Bad Carburetor Tuning",
+        "cause": "Incorrect air-fuel mixture setting or clogged carburetor jets.",
+        "fix": "1. Remove and clean the carburetor jets with carb spray. 2. Warm up the engine. 3. Adjust the air screw clockwise until tight, then back it out 1.5 to 2 full turns. 4. Adjust the idle speed screw."
+      },
+      {
+        "issue": "Chain Sprocket Wear",
+        "cause": "Lack of lubrication in the enclosed metal chain box.",
+        "fix": "1. Open the rubber inspection cap on the chain cover. 2. Spray heavy chain lube or apply clean 90-grade gear oil. 3. Adjust chain tension. 4. If sprockets have hooked teeth, replace the chain-sprocket kit."
+      },
+      {
+        "issue": "Headlight Flickering",
+        "cause": "Loose AC alternator coil connector or bad grounding wire behind the cowl.",
+        "fix": "1. Remove the headlight mask. 2. Inspect the green ground wires for tight connections. 3. Ensure the headlight bulb holder is clean and not rusted. 4. Replace bulb if filament is loose."
+      },
+      {
+        "issue": "Brake Squeal (Drum Brakes)",
+        "cause": "Accumulation of brake dust inside the drum hub.",
+        "fix": "1. Remove the front/rear wheel. 2. Clean the brake drum interior with a dry cloth and wire brush. 3. Clean brake shoe lining surfaces and apply light sandpaper. 4. Grease the brake cam pivots."
+      },
+      {
+        "issue": "Battery Charging Issues",
+        "cause": "Failing Rectifier (RR) unit or old battery cells.",
+        "fix": "1. Test alternator output. 2. Check the 15A fuse near the battery. 3. Measure battery charging voltage; if it stays below 13.5V when revving, replace the RR unit. 4. Top up battery water if applicable."
+      },
+      {
+        "issue": "Rusting on Chrome Guards",
+        "cause": "Exposure to rain and lack of protective wax coating.",
+        "fix": "1. Clean the chrome crash guard and rear carrier. 2. Scrub rust spots with aluminum foil dipped in water. 3. Wipe dry. 4. Apply a coat of premium wax or anti-rust spray."
+      },
+      {
+        "issue": "Fuel Tap Leakage",
+        "cause": "Worn-out rubber gasket inside the manual fuel selector switch.",
+        "fix": "1. Turn fuel tap to OFF position. 2. Unscrew the fuel tap cup. 3. Replace the small rubber O-ring seal inside. 4. Reassemble and check for leaks. 5. If it still leaks, replace the complete fuel tap assembly."
+      },
+      {
+        "issue": "White Smoke from Exhaust",
+        "cause": "Engine oil burning due to worn piston rings or valve stem seals.",
+        "fix": "1. Check oil level frequently. 2. If consumption is high, perform a cylinder compression test. 3. Replace piston rings, hone cylinder, and install new valve oil seals. 4. Clean exhaust silencer core."
+      }
+    ]
+  },
+  {
+    "id": "ktm-duke-390",
+    "name": "KTM Duke 390",
+    "brand": "KTM",
+    "type": "sports",
+    "price_inr": 311000,
+    "engine_cc": 373.2,
+    "image": "https://imgd.aeplcdn.com/664x374/n/cw/ec/44688/duke-390-right-front-three-quarter.jpeg",
+    "mileage_kmpl": 28,
+    "power_bhp": 43.5,
+    "torque_nm": 37.0,
+    "weight_kg": 171,
+    "features": ["Liquid Cooled DOHC Engine", "Ride-by-Wire Throttle", "Slipper Clutch & Quickshifter+", "TFT Color Display", "Supermoto ABS", "Adjustable Suspension"],
+    "pros": ["Incredible power-to-weight ratio", "Advanced electronics suite", "Razor-sharp handling characteristics", "Stunning LED lighting and premium components"],
+    "cons": ["Engine runs extremely hot in slow traffic", "Stiff ride quality over bumps", "High oil consumption"],
+    "best_for": "Adrenaline-fueled sports riding, track days, and fast highway touring",
+    "common_issues": [
+      {
+        "issue": "High Engine Heat / Overheating Warning",
+        "cause": "Air lock in coolant system, radiator debris, or radiator fan failure.",
+        "fix": "1. Check coolant reservoir level; top up with Motul Inugel. 2. Clean mud/insects from radiator fins with low-pressure water. 3. Test radiator fan fuse (15A) in fuse box. 4. Bleed air from the cooling system bypass screw."
+      },
+      {
+        "issue": "Coolant Mixing with Engine Oil (Gasket Wear)",
+        "cause": "Failure of the water pump oil seal or blown cylinder head gasket.",
+        "fix": "1. Check oil sight window; look for milky/chocolate color. 2. Stop riding immediately to prevent engine seizure. 3. Drain oil and coolant. 4. Replace the water pump seals and shaft, or the cylinder head gasket."
+      },
+      {
+        "issue": "Quickshifter False Neutrals",
+        "cause": "Outdated ECU/QS firmware or lazy shifting action by the rider.",
+        "fix": "1. Ensure gear shifts are firm and complete. 2. Have the dealer calibrate the Quickshifter sensor using the diagnostics tool. 3. Check and adjust the gear shifter link rod for proper length."
+      },
+      {
+        "issue": "Front Fork Seal Leakage",
+        "cause": "Road grit tearing the high-performance upside-down fork seals.",
+        "fix": "1. Clean the fork tube slider. 2. Wrap a thin plastic strip around the slider, slip it under the dust cap to clean. 3. If leakage persists, replace the fork seal and refill with WP 4W fork oil (450ml)."
+      },
+      {
+        "issue": "TFT Console Condensation",
+        "cause": "Micro-cracks in seal housing allowing damp air entry under direct sunlight/rain.",
+        "fix": "1. Place a silica gel packet behind the console cover if accessible. 2. Apply clear protective film over TFT. 3. If condensation is heavy, replace console under warranty or reseal casing with adhesive."
+      },
+      {
+        "issue": "Battery Drain / Alternator Failure",
+        "cause": "Burnt stator coil winding due to high engine running temperatures.",
+        "fix": "1. Measure battery voltage when bike is running; check if it stays below 13V. 2. Check stator coil resistance across pins. 3. Replace the stator coil assembly. 4. Always use high-quality 10W-50 fully synthetic engine oil."
+      },
+      {
+        "issue": "Radiator Fan Fuse Blown",
+        "cause": "Fan motor drawing excess current due to dirt clogging the blades.",
+        "fix": "1. Locate fuse box under rider seat. 2. Replace blown 15A fan fuse. 3. Reach behind radiator and rotate fan blade manually to ensure it spins freely. 4. Clean fan blade area."
+      },
+      {
+        "issue": "Chain Stretches Quickly",
+        "cause": "High torque stresses combined with poor lubrication habits.",
+        "fix": "1. Clean and lube chain every 500 km using premium gear oil. 2. Adjust chain slack to 5-7mm (measured between swingarm and chain bottom). 3. Replace with heavy-duty X-ring chain when replacing sprockets."
+      },
+      {
+        "issue": "Side Stand Sensor Failure",
+        "cause": "Dirt build-up on the magnetic proximity sensor on the side stand bracket.",
+        "fix": "1. Clean the side stand bracket and sensor with soap water. 2. Ensure the magnet on the stand arm aligns with the sensor. 3. Inspect sensor wire for cuts. 4. Use electrical contact cleaner spray."
+      },
+      {
+        "issue": "Fuel Pump Clogging",
+        "cause": "Rust or particulate impurities in low-quality petrol blocking fuel filter.",
+        "fix": "1. Drain fuel tank. 2. Remove fuel pump from tank bottom. 3. Disassemble the pump housing and replace the pre-filter mesh. 4. Use high-octane fuel (XP95) from trusted petrol pumps."
+      }
+    ]
+  },
+  {
+    "id": "yamaha-fzs-fi-v3",
+    "name": "Yamaha FZ-S FI V3",
+    "brand": "Yamaha",
+    "image": "https://imgd.aeplcdn.com/664x374/n/cw/ec/44694/fz-s-fi-v3-right-front-three-quarter.jpeg",
+    "type": "commuter",
+    "price_inr": 116000,
+    "engine_cc": 149.0,
+    "mileage_kmpl": 48,
+    "power_bhp": 12.4,
+    "torque_nm": 13.6,
+    "weight_kg": 137,
+    "features": ["Blue Core Engine", "Fuel Injection", "Single-Channel ABS", "LED Headlight", "LCD Instrument Cluster", "Wide Radial Tyre"],
+    "pros": ["Excellent city ride comfort", "Great mileage figures", "Very light and agile footprint", "Muscular street look"],
+    "cons": ["Lacks high-speed top-end performance", "Headlamp has poor throw", "Rear passenger seat is small"],
+    "best_for": "Comfortable and stylish daily city commuting",
+    "common_issues": [
+      {
+        "issue": "Low Headlight Brightness",
+        "cause": "Low wattage of the stock LED headlight design.",
+        "fix": "1. Adjust the headlight focus bolt under the cowl to throw light lower on the road. 2. Clean the outer plastic lens. 3. Install auxiliary LED fog lights on the crash guard for night highway rides."
+      },
+      {
+        "issue": "Low Mid-range Power Flat-spot",
+        "cause": "Eco-friendly lean FI mapping in the mid-RPM range.",
+        "fix": "1. Keep spark plug clean. 2. Use premium high-octane fuel for slightly crisper throttle response. 3. Clean the fuel injector with an additive. 4. Check throttle cable tension."
+      },
+      {
+        "issue": "Hard Seat Comfort",
+        "cause": "Stock seat foam density is too firm for long rides.",
+        "fix": "1. Take the seat to an upholstery shop. 2. Add a 0.5-inch layer of soft foam or gel pad. 3. Replace the seat cover with a breathable mesh cover to reduce sliding."
+      },
+      {
+        "issue": "Fuel Injector Clogging",
+        "cause": "Water or dust contaminants in petrol clogging the injector nozzle.",
+        "fix": "1. Add a bottle of fuel injector cleaner to a full tank of petrol. 2. If engine misfires, remove the injector. 3. Spray carburetor cleaner through the injector using a 9V battery to pulse it open."
+      },
+      {
+        "issue": "Chain Squeak Noise",
+        "cause": "Dry O-ring chain links rubbing against each other.",
+        "fix": "1. Place bike on center stand. 2. Spray chain with WD-40 to clean, then wipe off. 3. Lube chain with dedicated chain oil. 4. Keep chain tension slack adjusted to 20-30mm."
+      },
+      {
+        "issue": "Front Fork Oil Seal Leak",
+        "cause": "Dust or sand scratching the fork tube and breaching the seal.",
+        "fix": "1. Wipe down the forks. 2. Run a plastic film tool inside the seal. 3. If leakage is severe, replace the fork seal and replace the fork oil (use Yamaha genuine 10W oil)."
+      },
+      {
+        "issue": "Rear Drum Brake Wear",
+        "cause": "Frequent heavy braking using the rear brake.",
+        "fix": "1. Turn the rear brake adjuster nut clockwise to reduce pedal play. 2. Check the wear indicator mark on the drum arm. 3. Replace brake shoes if indicator limit is reached. 4. Clean drum assembly."
+      },
+      {
+        "issue": "Battery Degradation",
+        "cause": "Short city commutes not giving the alternator enough time to charge.",
+        "fix": "1. Minimize key-on idling time with the headlight on. 2. Periodically ride the bike for at least 15 minutes continuously. 3. Recharge battery externally if voltage falls below 12.2V."
+      },
+      {
+        "issue": "Engine Misfire in Rains",
+        "cause": "Water entering the spark plug cap socket due to loose seal.",
+        "fix": "1. Remove spark plug cap. 2. Apply dielectric grease inside the rubber cap boot. 3. Push the cap onto the plug firmly until it clicks. 4. Seal the wire inlet with electrical tape."
+      },
+      {
+        "issue": "Spark Plug Sooting",
+        "cause": "Rich air-fuel mixture or idling the engine too much.",
+        "fix": "1. Remove the spark plug. 2. Scrub carbon off the electrode with a wire brush. 3. Verify the gap is between 0.8-0.9mm. 4. Avoid brief startups that don't let the engine reach running temperature."
+      }
+    ]
+  },
+  {
+    "id": "bajaj-dominar-400",
+    "name": "Bajaj Dominar 400",
+    "brand": "Bajaj",
+    "type": "cruiser",
+    "image": "https://imgd.aeplcdn.com/664x374/n/cw/ec/44702/dominar-400-right-front-three-quarter.jpeg",
+    "price_inr": 230000,
+    "engine_cc": 373.3,
+    "mileage_kmpl": 29,
+    "power_bhp": 40.0,
+    "torque_nm": 35.0,
+    "weight_kg": 193,
+    "features": ["Liquid Cooled DOHC Engine", "Triple Spark DTS-i", "Slipper Clutch", "Twin-Barrel Exhaust", "Full LED Lighting", "Split LCD Dash"],
+    "pros": ["Superb cruising ability at 100-120 km/h", "Loaded with accessories (touring visor, guards)", "Solid road presence and heavy build", "Very competitive pricing"],
+    "cons": ["Heavy weight makes maneuvering slow traffic tough", "Fuel economy is low in city rides", "Vibrations at specific RPM ranges"],
+    "best_for": "Long distance highway touring and daily heavy commutes",
+    "common_issues": [
+      {
+        "issue": "Radiator Coolant Hose Leakage",
+        "cause": "Thermal expansion loosening the hose clamps over time.",
+        "fix": "1. Let engine cool. 2. Inspect hose connections around the radiator. 3. Use a screwdriver to tighten the metal ring clamps. 4. Top up coolant level in the expansion tank with fresh green coolant."
+      },
+      {
+        "issue": "Heavy Clutch Feel",
+        "cause": "Dry clutch cable or clutch springs losing elasticity.",
+        "fix": "1. Lubricate the clutch cable. 2. Inspect clutch lever lever pivot bolt and grease it. 3. Adjust the clutch cable play at the engine crankcase. 4. Replace cable if inner wire is frayed."
+      },
+      {
+        "issue": "Footpeg & Handlebar Vibrations",
+        "cause": "Loose engine mounting bolts or bar-end weights missing.",
+        "fix": "1. Ensure both bar-end weights are tightly screwed. 2. Check the frame-to-engine mount bolts under the fairing. 3. Tighten to specification. 4. Ensure tire inflation pressures are optimal."
+      },
+      {
+        "issue": "ECU Error Code (Sensor Fault)",
+        "cause": "Moisture inside sensor couplers after high-pressure washing.",
+        "fix": "1. Locate sensor connectors under the fuel tank. 2. Disconnect and blow dry with compressed air. 3. Apply dielectric grease. 4. Turn ignition off and on 5 times to reset basic ECU faults."
+      },
+      {
+        "issue": "Chain Roller Noise",
+        "cause": "Dry or misaligned lower chain roller guide.",
+        "fix": "1. Inspect the small rubber roller below the chain. 2. Apply grease to the roller pivot bolt. 3. Adjust chain alignment to prevent it from rubbing hard against the roller sides. 4. Replace roller if worn."
+      },
+      {
+        "issue": "Battery Lifespan Issues",
+        "cause": "High drain from twin LCD screens and lighting, combined with low charging rate at low RPM.",
+        "fix": "1. Avoid adding aftermarket high-power lights. 2. Use a smart charger if the bike sits idle for weeks. 3. Check alternator output (~14.2V at 4000 RPM). 4. Replace battery after 2-3 years."
+      },
+      {
+        "issue": "Front Brake Pad Quick Wear",
+        "cause": "Heavy bike weight placing high loads on the front braking assembly.",
+        "fix": "1. Inspect front pad thickness regularly. 2. Clean caliper pistons with brake cleaner to prevent pad dragging. 3. Use organic or sintered pads depending on performance preference. 4. Do not ride with fingers resting on brake lever."
+      },
+      {
+        "issue": "Side Stand Play",
+        "cause": "Worn-out side stand bracket bolt due to heavy bike weight.",
+        "fix": "1. Elevate the bike. 2. Tighten the main side stand pivot bolt and lock nut. 3. Lubricate the pivot with thick grease. 4. If bracket hole is elongated, fit a larger custom bushing."
+      },
+      {
+        "issue": "Rear Wheel Bearing Wear",
+        "cause": "Water wash washing away grease inside the wheel hub bearings.",
+        "fix": "1. Remove rear wheel. 2. Spin bearings with finger; replace if gritty or loose. 3. Install sealed double-lip bearings. 4. Pack the wheel spacer hubs with heavy marine grease."
+      },
+      {
+        "issue": "Exhaust Muffler Heat Shield Vibration",
+        "cause": "Broken bracket welds or loose retaining screws.",
+        "fix": "1. Let exhaust cool. 2. Inspect the metal heat shield screws on the muffler. 3. Add heat-resistant rubber washers behind the screws. 4. Tighten screws. 5. If bracket is cracked, weld it at a local workshop."
+      }
+    ]
+  },
+  {
+    "id": "suzuki-gixxer-sf-250",
+    "name": "Suzuki Gixxer SF 250",
+    "brand": "Suzuki",
+    "type": "sports",
+    "image": "https://imgd.aeplcdn.com/664x374/n/cw/ec/44706/gixxer-sf-250-right-front-three-quarter.jpeg",
+    "price_inr": 192000,
+    "engine_cc": 249.0,
+    "mileage_kmpl": 38,
+    "power_bhp": 26.5,
+    "torque_nm": 22.2,
+    "weight_kg": 161,
+    "features": ["Suzuki Oil Cooling System (SOCS)", "Fuel Injection", "Dual-Channel ABS", "Full Fairing Design", "LED Headlamp", "Digital Instrument Console"],
+    "pros": ["Silky smooth engine refinement", "Very stable handling geometry", "Highly effective oil-cooling system", "Comfortable sports touring ergonomics"],
+    "cons": ["Stiff rear suspension setup", "Instrument cluster looks dated", "Wind protection is basic"],
+    "best_for": "Smooth sports touring and aggressive city commutes",
+    "common_issues": [
+      {
+        "issue": "Front Brake Spongey Feel",
+        "cause": "Old brake fluid or minor air pocket in the front caliper.",
+        "fix": "1. Check front reservoir brake fluid level. 2. Attach bleeding tube to front caliper bleed screw. 3. Pump brake lever, open screw to release air, close, and repeat. 4. Refill with fresh DOT 4 fluid."
+      },
+      {
+        "issue": "Cold Start Idle Fluctuation",
+        "cause": "Accumulated carbon in the idle air control valve (IACV).",
+        "fix": "1. Remove airbox to access throttle body. 2. Spray throttle body cleaner into the IACV bypass port. 3. Start engine and let it warm up. 4. Check for stable idle speed at ~1400 RPM."
+      },
+      {
+        "issue": "Chain Rattle",
+        "cause": "Dry chain links or chain alignment out of line.",
+        "fix": "1. Clean and lubricate the chain. 2. Align the rear wheel using the adjusters. 3. Maintain chain slack at 20-30mm. 4. Ensure rubber swingarm chain slider is not worn out."
+      },
+      {
+        "issue": "Gear Lever Stiff / Hard Neutral Finding",
+        "cause": "Clutch cable free play is too high or oil needs replacement.",
+        "fix": "1. Adjust the clutch cable free-play to 10-15mm at the lever. 2. Change engine oil to ECSTAR 10W-40 fully synthetic. 3. Clean and lube the gear shift linkage pivots."
+      },
+      {
+        "issue": "Headlight Low Range",
+        "cause": "Incorrect factory alignment of the LED headlamp.",
+        "fix": "1. Find the headlight vertical adjustment screw behind the front cowl. 2. Turn the screw clockwise to raise the headlight beam height. 3. Test beam level against a wall at 5 meters."
+      },
+      {
+        "issue": "Seat Lock Stuck",
+        "cause": "Lack of lubrication in the seat release latch mechanism.",
+        "fix": "1. Insert the key into the seat lock. 2. Push down on the pillion seat while turning the key. 3. Once open, spray lithium grease onto the spring latch. 4. Adjust cable bracket tension if loose."
+      },
+      {
+        "issue": "Digital Console Fading",
+        "cause": "Extended parking under hot sun degrading the polarizer screen.",
+        "fix": "1. Park the bike in shade or use a bike cover. 2. Apply a UV-resistant screen protector film over the console. 3. If display segments fade permanently, replace the LCD module."
+      },
+      {
+        "issue": "Engine Oil Filter O-ring Leak",
+        "cause": "Reusing old oil filter O-ring or incorrect installation during service.",
+        "fix": "1. Drain oil or tilt bike to side. 2. Remove the oil filter cover plate. 3. Install a brand-new rubber O-ring. 4. Apply oil to the O-ring before mounting. 5. Tighten the cover bolts evenly."
+      },
+      {
+        "issue": "Fuel Cap Seal Failure",
+        "cause": "Dried out rubber gasket on the fuel cap underside.",
+        "fix": "1. Open fuel cap. 2. Clean the rubber seal and tank collar. 3. Apply a thin layer of silicone grease to the gasket. 4. Replace gasket if cracked to prevent water entering the fuel tank."
+      },
+      {
+        "issue": "High Speed Fairing Buzz",
+        "cause": "Loose plastic push-rivets or fairing panel overlap friction.",
+        "fix": "1. Tap fairing panels to identify loose areas. 2. Replace any missing plastic clips. 3. Add thin double-sided foam tape between overlapping plastic panels. 4. Tighten all fairing bolts."
+      }
+    ]
+  },
+  {
+    "id": "royal-enfield-meteor-350",
+    "name": "Royal Enfield Meteor 350",
+    "brand": "Royal Enfield",
+    "type": "cruiser",
+    "price_inr": 205000,
+    "image": "https://imgd.aeplcdn.com/664x374/n/cw/ec/44710/meteor-350-right-front-three-quarter.jpeg",
+    "engine_cc": 349.0,
+    "mileage_kmpl": 38,
+    "power_bhp": 20.2,
+    "torque_nm": 27.0,
+    "weight_kg": 191,
+    "features": ["J-Series Engine", "Tripper Navigation (Standard)", "Relaxed Cruiser Ergonomics", "Dual-Channel ABS", "Windscreen (Supernova Edition)"],
+    "pros": ["Extremely refined and smooth cruiser", "Very comfortable seat ergonomics", "Standard navigation console", "Excellent highway tracking and stability"],
+    "cons": ["Rear suspension can feel stiff on potholes", "Heavily priced compared to rivals", "Low top-rev performance limits high-speed passes"],
+    "best_for": "Comfortable relaxed highway cruising and easy urban travel",
+    "common_issues": [
+      {
+        "issue": "Tripper Navigation Disconnect",
+        "cause": "Royal Enfield App closed in phone background by battery saving settings.",
+        "fix": "1. Turn off bike ignition. 2. In your smartphone, disable 'Battery Optimization' for the RE App. 3. Ensure Location permissions are set to 'Always Allow'. 4. Restart ignition and repair."
+      },
+      {
+        "issue": "Rear Brake Pedal High Play",
+        "cause": "Air in hydraulic line or low brake actuator rod adjustment.",
+        "fix": "1. Inspect fluid level in rear reservoir. 2. Adjust the brake pedal rod bolt to raise pedal height. 3. Perform hydraulic brake bleeding. 4. Ensure caliper slider pin is lubricated and slides smoothly."
+      },
+      {
+        "issue": "Engine Tappet Noise",
+        "cause": "Thermal expansion altering valve clearance settings.",
+        "fix": "1. Let engine cool. 2. Remove cylinder head cover. 3. Use feeler gauges to set clearances: Inlet 0.08mm, Exhaust 0.18mm. 4. Tighten locknuts. 5. Replace head gasket if oil seepage is observed."
+      },
+      {
+        "issue": "Clutch Cable Snapping",
+        "cause": "Dry cable friction inside the tight cable routing bend.",
+        "fix": "1. Route the clutch cable with gentle bends. 2. Clean and lube the cable wire using light machine oil regularly. 3. Adjust free play to 2-3mm. 4. Carry a spare clutch cable for long rides."
+      },
+      {
+        "issue": "Rear Suspension Stiffness",
+        "cause": "Factory pre-load setting set too high for single riders.",
+        "fix": "1. Locate the shock absorber adjuster collars. 2. Use a C-spanner (found in tool kit). 3. Rotate the collar to step 1 or 2 (softest settings) for a softer solo ride. 4. Step 4-5 is for heavy pillions."
+      },
+      {
+        "issue": "Chrome Finish Discoloration",
+        "cause": "Corrosion and heat spots turning chrome yellow/blue.",
+        "fix": "1. Wash and dry the cruiser. 2. Apply metal polish cream. 3. Rub with microfiber cloth to restore shine. 4. Avoid spraying harsh acids or detergents on chrome surfaces."
+      },
+      {
+        "issue": "Side Stand Kill Switch Malfunction",
+        "cause": "Dirt build-up blocking the spring mechanism of the side stand cut-off switch.",
+        "fix": "1. Clean the side stand pivot and switch assembly. 2. Spray switch with contact cleaner or WD-40. 3. Check electrical connection block behind side cover. 4. Ensure stand retracts fully."
+      },
+      {
+        "issue": "Fuel Gauge Inaccuracy",
+        "cause": "Software calibration issue in the digital gauge or float stuck.",
+        "fix": "1. Shake the bike slightly to free a stuck tank float. 2. Keep the fuel level above 3 liters. 3. If gauge displays zero fuel when full, visit service center to update dashboard console software."
+      },
+      {
+        "issue": "Engine Stalling on Cold Starts",
+        "cause": "Fuel injection system adaptive values reset or clean air bypass blockage.",
+        "fix": "1. Turn on ignition. 2. Let fuel pump prime twice before starting. 3. Do not touch throttle; let engine warm up. 4. Have the dealer clean the idle air control bypass valve if stalling persists."
+      },
+      {
+        "issue": "Exhaust Heat Guard Rattle",
+        "cause": "Loose bolts holding the chrome heat shield on the bend pipe.",
+        "fix": "1. Let exhaust cool. 2. Tighten the Allen bolts holding the heat shield. 3. Ensure the heat-resistant washers are in place between pipe and shield. 4. Replace damaged bolts."
+      }
+    ]
+  }
+]

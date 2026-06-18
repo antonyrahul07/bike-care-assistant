@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BikeAI Assistant - Conversational Recommendations & Troubleshooting</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Premium Navigation Header -->
+  <header>
+    <div class="nav-container">
+      <a href="index.html" class="logo" id="navLogo">🏍️ BikeAI</a>
+      <ul class="nav-links">
+        <li><a href="index.html" id="navLinkExplorer">Explorer</a></li>
+        <li><a href="chat.html" class="active" id="navLinkChat">AI Assistant</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <!-- Chat Area Container -->
+  <main style="padding: 1.5rem 0.5rem; display: flex; flex-direction: column;">
+    <div class="chat-container">
+      <!-- Chat Header -->
+      <div class="chat-header">
+        <div class="chat-header-left">
+          <span class="chat-bot-avatar">🤖</span>
+          <div class="chat-bot-title">
+            <h2>BikeAI Specialist</h2>
+            <div class="chat-bot-status">
+              <span class="chat-bot-status-dot"></span>
+              Online (Offline Rules Engine)
+            </div>
+          </div>
+        </div>
+        
+        <!-- Active Bike Context Marker -->
+        <div id="activeContextContainer" style="display: none;">
+          <span class="active-context-badge">
+            📌 Focus: <span id="activeContextName">Honda Activa 6G</span>
+            <button id="clearContextBtn" title="Clear context">&times;</button>
+          </span>
+        </div>
+      </div>
+
+      <!-- Message History Pane -->
+      <div class="chat-messages" id="chatMessagesStream">
+        <!-- Welcomes or history will be loaded by chat.js -->
+      </div>
+
+      <!-- Quick Conversation Chips -->
+      <div class="quick-chips-container" id="quickChipsContainer">
+        <button class="quick-chip" id="chipRecommend">💡 Recommend a Bike</button>
+        <button class="quick-chip" id="chipDiagnose">🔧 Troubleshoot an Issue</button>
+        <button class="quick-chip" id="chipCompare">⚖️ Compare Models</button>
+      </div>
+
+      <!-- Input Bar -->
+      <div class="chat-input-bar">
+        <input type="text" id="chatInputField" placeholder="Ask about specifications, prices, mileage, or diagnose a problem..." autocomplete="off">
+        <button id="chatSendButton" title="Send Message">✈️</button>
+      </div>
+    </div>
+  </main>
+
+  <!-- Sticky Footer -->
+  <footer>
+    <p>&copy; 2026 BikeAI. Made for Indian riders. Powered by an offline, rule-based AI diagnostics engine.</p>
+  </footer>
+
+  <script src="js/chat.js"></script>
+</body>
+</html>
